@@ -1,0 +1,103 @@
+Program - 3
+Title : Html linking
+Objectives : Create an HTML file to link to different HTML page which contains images,
+tables, and also link within a page.
+Input:
+Link.html
+<!DOCTYPE html>
+<html>
+<head>
+<title> Link pages using a tag </title>
+</head>
+<body ><h1>
+<center>Welcome to my page!!!</ h1><br>
+<h2>To know more about me, tap on any links given below <br></h2></center>
+<br>
+<a href="about.html">About</a><br>
+<a href="education.html">Education</a><br>
+<a href="contact.html">Contact</a><br>
+</body>
+</html>
+About.html
+<!DOCTYPE html>
+<html>
+<head>
+<title> About </title>
+</head>
+<body>
+<h2>ABOUT</h2>
+<p>Hi, I am AKASH 
+SUSHEELAN, a Keralite doing my MCA 1st sem in Mount Zion College of Engineering in
+Kadammanitta<br>
+My native place is Alappuzha where my sweet home resides.<br>
+My family consists of father, mother and Brother <br>
+Father's name is sadanandan k r, he is working<br>
+Mother'name is sulekha, she is housewife <br>
+Sister's name is visal,studying …<br>
+<a href="link.html">Back to home</a>
+</p>
+</body>
+</html>
+Education.html
+<!DOCTYPE html>
+<html>
+<head>
+<title> Education </title>
+ </head>
+ <body>
+ <h1>EDUCATIONAL DETAILS</h1>
+ <table border=2 align="center">
+ <tr>
+ <h2><th>Class</th>
+ <th>Institution Name</th>
+ <th>Website</th>
+</h2>
+</tr>
+<tr>
+<td>10th</td>
+<td>s.v.h.s.cheriyanad<br>
+ Chengannur Pincode:689121 Kerala ,India </td>
+<td><a href=" https://www.svhss.com/"> https://www.svhss.com/ /</a></td>
+</tr>
+<tr>
+ <td>12th</td>
+ <td>s..n.trust.h.s.s.cheriyanad <br> Kerala 689121<br> </td>
+ <td><a href=" https://www.snthss.com/"> https://www.snthss.com/ </a> </td>
+</tr>
+<tr>
+ <td>Degree</td>
+ <td>IHRD College of Applied Science,Perissery(kerala university) <br>
+ Chengannur Kerala, India < br></td>
+ <td><a href =" https://casp.com/ ">https://casp.com/ </a></td>
+</tr>
+<tr>
+<td>PG</td>
+ 
+<td>Mount Zion College of Engineering, Kadammanitta<br>Pathanamthitta,Kerala, India</t
+d>
+<td><a href= "https://mzce.ac.in/" > https://mzce.ac.in/ </a></td>
+</tr>
+</table>
+<a href="link.html">Back to home page</a>
+</body>
+</html>
+Contact.html
+<!DOCTYPE html>
+<html>
+<head>
+<title> Contact </title>
+</head>
+<body>
+<h2>CONTACT</h2>
+<table border=2 align="center">
+<tr> <th>Address</th>
+ <th>Phone Number</th>
+ <th>Email Id</th>
+</tr>
+<tr><td> visakh bhavanam <br> Perissery p.o<br> Chengannur,689121</td>
+ <td> 9656731715</td>
+ <td><a href= "mail to:svisakh098@gmail@gmail.com" >Send Email</td>
+</tr></table>
+<a href="link.html">Back to home page</a>
+</body>
+</html>

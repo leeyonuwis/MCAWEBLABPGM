@@ -1,0 +1,27 @@
+Program - 4
+Title : Html Frames
+Objectives: Create an Html page with different types of frames such as floating frame, navigation 
+frame & mixed frame.
+Input:
+message.html
+<html>
+<body>
+<h1> Welcome to iframe</h1>
+</body>
+</html>
+frame.html
+!DOCTYPE html>
+<html>
+<body>
+<h1> Simple iframe</h1>
+<iframe src="message.html" height="50%" width="70%"></iframe>
+<h2>Iframe - Target for a Link</h2>
+<iframe height="300px" width="60%" src="table.html" name="iframe_a"></iframe>
+<p><a href="image.html" target="iframe_a">View logo</a></p>
+<h3>Video frame</h3>
+<iframe width="550" height="315" 
+src="https://www.youtube.com/embed/JHq3pL4cdy4" frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in- picture"
+allowfullscreen style="padding:20px;"></iframe>
+</body>
+</html>

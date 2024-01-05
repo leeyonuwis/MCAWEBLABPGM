@@ -1,0 +1,57 @@
+Program - 5
+Title : Html style sheets
+Objectives : Create an Html file by applying the different styles using inline ,external and 
+internal style sheets.
+Input :
+
+Inline.html
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="color:blue;">A Blue Heading</h1>
+<p style="color:red;">A red paragraph.</p>
+</body>
+</html>
+
+Internal.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: 
+powderblue;}h1 {color:
+blue;}
+p {color: red;}
+</style>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body></html>
+
+External.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+</html>
+
+styles.css
+
+body {
+background-color: powderblue;
+}
+h1 {
+color: blue;
+}
+p {
+color: red;
+}

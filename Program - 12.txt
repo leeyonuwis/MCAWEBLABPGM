@@ -1,0 +1,18 @@
+Program - 12
+Title : Php code to store name of students
+Objectives : Build a Php code to store name of students in an array and display it usig print_r 
+function .sort and display the same using assort and arsort functions.
+Input :
+<?php
+echo "Sorting array<br/>"; 
+echo "=============<br/>"; 
+$stud=array("Nidhi","Sreelekshmi","Agna","Riya","Christy"); 
+echo "Displaying array using print_r():"; 
+print_r($stud); 
+echo "<br>Array in ascending order:<br/>"; 
+asort($stud); 
+print_r($stud); 
+echo "<br>Array in descending order:<br/>"; 
+arsort($stud); 
+print_r($stud); 
+?>

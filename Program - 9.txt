@@ -1,0 +1,23 @@
+Program - 9
+Title : JavaScript program for background color change
+Objectives : Create a html page to change the background color for every click of a button using 
+JavaScript Event Handling.
+Input :
+<html>
+<head>
+<title>Change the Background Color with JavaScript</title>
+<script>
+ function changeBodyBg(color) 
+ { 
+ document.body.style.background = color; 
+ } 
+</script>
+</head>
+<body>
+<h1>Welcome to my page</h1>
+<label>Change Webpage Background To:</label>
+<button type="button" onclick="changeBodyBg('yellow');">Yellow</button>
+<button type="button" onclick="changeBodyBg('lime');">Lime</button>
+<button type="button" onclick="changeBodyBg('orange');">Orange</button>
+</body>
+</html>
